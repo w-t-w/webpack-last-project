@@ -13,6 +13,8 @@ const ImageMinimizerWebpackPlugin = require('image-minimizer-webpack-plugin');
 const config = require('../config');
 const util = require('./util');
 
+const { ZipPlugin } = require('../plugin');
+
 const OUTPUT_DIR = path.resolve(process.cwd(), 'build');
 const NEXT_LOADER_DIR = path.resolve(process.cwd(), 'chore/loader/next/index.js');
 const MANIFEST_DIR = path.resolve(OUTPUT_DIR, 'vendors', 'manifest.json');
@@ -232,6 +234,7 @@ module.exports = ({ env: mode, mobile = '' }) => {
             new PurgeCSSPlugin({
                 paths: glob.sync(PURGE_CSS_DIR, { nodir: true }),
             }),
+            new ZipPlugin('wtw_zip'),
             ...htmlWebpackPlugin,
         ],
     };

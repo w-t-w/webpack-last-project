@@ -78,6 +78,7 @@
     "html-webpack-plugin": "^5.5.0",
     "image-minimizer-webpack-plugin": "^3.8.1",
     "inquirer": "^8.2.5",
+    "jszip": "^3.10.1",
     "mini-css-extract-plugin": "^2.7.2",
     "open": "^8.4.1",
     "purgecss-webpack-plugin": "^5.0.0",
@@ -91,7 +92,8 @@
     "shelljs": "^0.8.5",
     "webpack": "^5.75.0",
     "webpack-bundle-analyzer": "^4.7.0",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "^5.8.0",
+    "webpack-sources": "^3.2.3"
   },
   "browserslist": [
     "defaults"

@@ -3,7 +3,6 @@ const { merge } = require('webpack-merge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const { NextPlugin } = require('../plugin');
-
 const config = require('../config');
 const baseConfig = require('../base/webpack.base.config');
 

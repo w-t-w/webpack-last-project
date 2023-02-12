@@ -1,5 +1,8 @@
 const glob = require('glob-all');
 
+/**
+ * 检测 webpack 构建打包文件
+ */
 describe('start webpack file test~', () => {
     it('Determine whether there is a webpack build package file~', (done) => {
         const files = glob.sync([

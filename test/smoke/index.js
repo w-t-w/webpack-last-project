@@ -8,6 +8,9 @@ const webConfig = require('../../chore/env/webpack.web.config');
 const webpackTest = path.resolve(process.cwd(), './test/smoke/singleton/webpack.test.js');
 const htmlCSSJSTest = path.resolve(process.cwd(), './test/smoke/singleton/html-css-js.test.js');
 
+/**
+ * 冒烟测试
+ */
 const smoke = () => {
     del([
         'build/*',

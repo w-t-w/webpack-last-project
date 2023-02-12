@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack Test</title>
+    <% if(mobile) { %>
+        <meta name="viewport"
+              content="width=device-width;initial-scale=1.0;maximum-scale=1.0;minimum-scale=1.0;user-scalable=yes;">
+    <% } %>
+    <% if(mobile && mobile.includes('rem')) { %>
+        <script type="text/javascript"
+                defer>
+            <%= require('!!raw-loader?esModule=false!!babel-loader!!lib-flexible/flexible') %>
+        </script>
+    <% } %>
+</head>
+<body>
+<div id="root">
+
+</div>
+<script defer>window.hackPath = "<%= hackPath %>"</script>
+<script src="<%= hackPath %>vendors/main.js" defer></script>
+</body>
+</html>

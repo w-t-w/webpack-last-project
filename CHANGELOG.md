@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.1](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.1.0...v0.1.1) (2023-02-12)
+
+
+### 🎫 Chores
+
+* 通过js的方式来实行zip压缩打包的依赖 ([1d015ec](https://github-w-t-w/w-t-w/webpack-last-project/commit/1d015ec))
+
+
+
 # [0.1.0](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.0.4...v0.1.0) (2023-02-12)
 
 

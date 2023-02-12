@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.1.0](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.0.4...v0.1.0) (2023-02-12)
+
+
+### ✨ Features
+
+* 添加新功能添加图片/字体资源模块 ([2f2f3eb](https://github-w-t-w/w-t-w/webpack-last-project/commit/2f2f3eb))
+
+
+
 ## [0.0.4](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.0.3...v0.0.4) (2023-02-12)
 
 

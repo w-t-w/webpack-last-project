@@ -11,10 +11,11 @@ const eslintrc = {
     },
     rules: {
         indent: ['error', 4],
+        'react/jsx-indent': ['error', 4],
         'max-len': 'off',
+        'no-undef': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/jsx-filename-extension': 'off',
-        'react/jsx-indent': ['error', 4],
     },
 };
 

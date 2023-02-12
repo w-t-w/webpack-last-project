@@ -27,7 +27,9 @@ module.exports = {
         library: '[name]_[fullhash]',
     },
     stats: {
+        children: true,
         preset: 'minimal',
+        colors: true,
     },
     module: {
         rules: [{

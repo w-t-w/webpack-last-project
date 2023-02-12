@@ -60,6 +60,8 @@ module.exports = ({ env: mode, mobile = '' }) => {
         mode,
         devtool: 'cheap-module-source-map',
         stats: {
+            colors: true,
+            children: true,
             preset: 'minimal',
         },
         devServer: {

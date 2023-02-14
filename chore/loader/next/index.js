@@ -3,7 +3,7 @@
  * @param source
  */
 function nextLoader(source) {
-    return source;
+    this.callback(null, source);
 }
 
 module.exports = nextLoader;

@@ -8,9 +8,11 @@ import '../../styles/index.less';
 function App() {
     return (
         <div>
+            <div className="aside luffy" />
             <img src={utils.base.assetsImagesTransform(assets.images.luffy)} alt="luffy" />
             1234567890
             <img src={utils.base.assetsImagesTransform(assets.images.zero)} alt="zero" />
+            <div className="aside zero" />
         </div>
     );
 }

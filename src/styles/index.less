@@ -3,6 +3,10 @@
   src: url(../assets/fonts/TW-Heavy.otf) format('truetype');
 }
 
+body {
+  position: relative;
+}
+
 #root {
   color: #12345678;
   width: auto;
@@ -17,5 +21,20 @@
 
   img {
     margin: 0 8px;
+  }
+
+  .aside {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background: url("../assets/images/luffy.jpeg") no-repeat 100%/cover border-box content-box;
+    bottom: 20px;
+    left: 60px;
+
+    &.zero {
+      right: 60px;
+      left: unset;
+      background-image: url("../assets/images/zero.jpeg");
+    }
   }
 }

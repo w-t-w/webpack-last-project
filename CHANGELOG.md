@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.2](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.1.1...v0.1.2) (2023-02-14)
+
+
+### 🎫 Chores
+
+* 完成用于合成多个图片形成雪碧图的依赖 spritesmith ([754aceb](https://github-w-t-w/w-t-w/webpack-last-project/commit/754aceb))
+
+
+
 ## [0.1.1](https://github-w-t-w/w-t-w/webpack-last-project/compare/v0.1.0...v0.1.1) (2023-02-12)
 
 

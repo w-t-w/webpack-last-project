@@ -1,21 +1,12 @@
 import { createRoot } from 'react-dom/client';
+import { Provider } from 'react-redux';
 
-import utils from './utils';
-import assets from './assets';
+import store from './store';
+
+import Container from './containers';
 
 import './styles/index.less';
 
-function App() {
-    return (
-        <div>
-            <div className="aside luffy" />
-            <img src={utils.base.assetsImagesTransform(assets.images.luffy)} alt="luffy" />
-            1234567890
-            <img src={utils.base.assetsImagesTransform(assets.images.zero)} alt="zero" />
-            <div className="aside zero" />
-        </div>
-    );
-}
-
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+const { App } = Container;
+root.render(<Provider store={store}><App /></Provider>);
